@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only --no-notify -r tsconfig-paths/register src/index.ts",
     "start": " node dist/index.js",
@@ -26,6 +27,8 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "better-auth": "^1.4.10",
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.1.1"
   }
 }
